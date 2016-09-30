@@ -35,6 +35,7 @@
     <modules>
         <module>streaming</module>
         <module>adapter/storm</module>
+        <module>adapter/jstorm</module>
         <module>cql</module>
         <module>cql-binary</module>
     </modules>
@@ -44,6 +45,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <test.extra.args>-Djava.net.preferIPv4Stack=true</test.extra.args>
         <commons-lang.version>2.5</commons-lang.version>
+        <jstorm.version>2.1.1</jstorm.version>
     </properties>
 
     <repositories>
